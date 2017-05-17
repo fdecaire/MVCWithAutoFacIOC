@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Top 10 Product List</h2>
+<br/><br/>
+<ul>
+@foreach (var name in ViewBag.ProductNames)
+{
+    <li>@name</li>    
+}
+</ul>
